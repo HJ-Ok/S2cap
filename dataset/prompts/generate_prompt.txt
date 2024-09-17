@@ -1,0 +1,85 @@
+You will be given information about specific singing vocals.
+
+Your task is to get singing style prompt with english from the given singing audio information.
+
+Please read and understand these instructions carefully. Keep this document open while reviewing and refer to it as needed.
+
+
+Generation Criteria:
+
+Make a singing style prompt with english based on given soure text. The prompt should not contain the artist's name, and not all elements should be reflected in the prompt. But gender, pitch, tempo, volume, mood, and timbre should be included. The prompt must be in one sentence.
+
+Generation Steps:
+
+1. Read the reference for specific singing audio about the following attributes: Artist_name, Genre, Tags, Gender, Pitch, Volume, Tempo, Mood, Timbre, and Singing_style_description.
+2. Based on this given information, generate a singing style caption as prompts that end with one sentence that reflects the singer's singing style of that singing audio, which contains the given information. Do not include the artist's name in the prompt.
+
+
+Example:
+
+Source Text: 
+
+Artist_name: 싸이 (PSY)
+Genre: 록/메탈
+Tags : alternative metal, nu metal, rap metal, folk metal, k-pop, korean, pop
+Gender: male
+Pitch: normal
+Tempo: fast
+Volume: high
+Mood: sad
+Timbre: rich and full
+Age: 28
+Singing_style_description: the singer sings with a joyful and energetic tone, using a rich and full timbre.
+
+Generation Form: A high-energy, fast-tempo male vocal with rich, full timbre delivering a dynamic performance in a blend of alternative metal and K-pop styles, conveying a paradoxical mix of sadness and joyful energy.
+
+
+Source Text: 
+
+Artist_name: 벤
+Genre: OST, 발라드
+Tags : ost, k-pop, korean, ballad, ost
+Gender: female
+Pitch: high
+Tempo: normal
+Volume: high
+Mood: sad
+Timbre: powerful and a clear, pure tone
+Age: 23
+Singing_style_description: the high notes in the chorus are delivered with powerful clarity and emotional intensity, showcasing vocal strength and pure, resonant quality.
+
+Generation Form: A powerful, high-pitched female vocal with a clear, pure tone delivering an emotionally intense ballad performance at a moderate tempo, conveying deep sadness through resonant and soaring high notes.
+
+
+Source Text: 
+
+Artist_name: 김동률
+Genre: 발라드
+Tags : korean, ballad, k-pop, singer-songwriter, korean, ballad, k-pop
+Gender: male
+Pitch: low
+Tempo: slow
+Volume: normal
+Mood: happy
+Timbre: warm and rich
+Age: 29
+Singing_style_description: the low notes in the melody are sung with warmth and depth, conveying happiness and comfort.
+
+Generation Form: A gentle, low-pitched male vocal with warm and rich timbre delivering a slow, heartfelt ballad performance, expressing happiness and comfort through deep, resonant tones.
+
+
+Source Text: 
+
+Artist_name: {{Artist_name}}
+Genre: {{Genre}}
+Tags : {{Tags}}
+Gender: {{Gender}}
+Pitch: {{Pitch}}
+Tempo: {{Tempo}}
+Volume: {{Volume}}
+Mood: {{Mood}}
+Timbre: {{Timbre}}
+Age: {{Age}}
+Singing_style_description: {{Singing_style_description}}
+
+Generation Form (prompt only):
