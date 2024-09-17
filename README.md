@@ -9,10 +9,5 @@ Now datasets and generation prompts are available
 ## Citation
 If you use this code, please cite the following paper:
 ```
-@article{ok2024audiobert,
-  title={AudioBERT: Audio Knowledge Augmented Language Model},
-  author={Ok, Hyunjong and Yoo, Suho and Lee, Jaeho},
-  journal={arXiv preprint arXiv:2409.08199},
-  year={2024}
-}
+TBD
 ```
