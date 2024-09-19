@@ -9,5 +9,10 @@ Now datasets and generation prompts are available
 ## Citation
 If you use this code, please cite the following paper:
 ```
-TBD
+@article{ok2024constructing,
+  title={Constructing a Singing Style Caption Dataset},
+  author={Ok, Hyunjong and Lee, Jaeho},
+  journal={arXiv preprint arXiv:2409.09866},
+  year={2024}
+}
 ```
