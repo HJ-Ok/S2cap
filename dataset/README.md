@@ -1,6 +1,6 @@
 ## Dataset
 ### S2Cap
-You can download our dataset [here](https://huggingface.co/datasets/HJOK/S2Cap)
+You can download our dataset [here](https://huggingface.co/datasets/HJ-AILAB/S2Cap)
 
 - **id**: A unique identifier from the **Melon Playlist Dataset**.
 - **caption**: Generated captions describing the singing style of the track.
